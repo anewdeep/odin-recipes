@@ -1,0 +1,59 @@
+body {
+    color: #1521a4;
+    background-color: #fef5ee;
+    font-family: 'DM Sans', sans-serif;
+    margin: 30px;
+}
+
+h1 {
+    font-family: "DM Serif Display", serif;
+    font-size: 40px;
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}
+
+h2 {
+    font-family: "DM Serif Display", serif;
+    font-size: 35px;
+}
+
+ul a {
+    text-decoration: none;
+}
+
+.menu-card {
+    display: block;
+    margin: 5px auto;
+    padding: 10px;
+    width: 372px;
+    border: solid;
+}
+
+.menu {
+    text-align: center;
+    font-family: Corinthia, cursive;
+    font-size: 35px;
+    margin: 15px;
+}
+
+.credit {
+    color: rgb(147, 159, 226);
+    text-align: right;
+}
+
+.user-name {
+    font-weight: bold;
+}
+
+.footer-link,
+.footer-link a{
+    text-align: center;
+    text-decoration: none;
+    color: #6a706e;
+}
