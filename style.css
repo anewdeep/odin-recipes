@@ -1,3 +1,11 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
 body {
     color: #1521a4;
     background-color: #fef5ee;
@@ -16,6 +24,11 @@ img {
     margin: 0 auto;
     max-width: 100%;
     height: auto;
+    margin: 5px auto;
+}
+
+p {
+    text-align: justify;
 }
 
 h2 {
@@ -31,15 +44,22 @@ ul a {
     display: block;
     margin: 5px auto;
     padding: 10px;
-    width: 372px;
+    width: 400px;
     border: solid;
+    list-style: inside;
 }
 
 .menu {
     text-align: center;
     font-family: Corinthia, cursive;
     font-size: 35px;
-    margin: 15px;
+    margin-bottom: 10px;
+}
+
+li {
+    margin-bottom: 5px;
+    list-style-position: inside;
+    text-align: justify;
 }
 
 .credit {
@@ -49,6 +69,7 @@ ul a {
 
 .user-name {
     font-weight: bold;
+
 }
 
 .footer-link,
@@ -56,4 +77,5 @@ ul a {
     text-align: center;
     text-decoration: none;
     color: #6a706e;
+    margin-top: 20px;
 }
